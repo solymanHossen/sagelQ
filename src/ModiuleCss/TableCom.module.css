@@ -1,0 +1,98 @@
+.circle {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #57A9C2;
+  border-radius: 50%;
+}
+
+.media {
+  position: relative;
+  right: 5px;
+}
+
+.tableHead {
+  background: #57A9C2;
+  /* height: 25px; */
+  color: white;
+}
+
+.tableSection {
+  margin-top: 60px;
+}
+
+.dropdownBasic {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  border: 1px solid rgba(196, 196, 196, 0.3);
+  border-radius: 3px;
+  height: 30px;
+}
+
+.nameFont {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #565656;
+}
+
+.displayBlockNone {
+  display: none;
+}
+
+.displayBlockNoneHead {
+  display: none;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+  .dropdownBasic {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .displayBlockNoneHead {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .displayBlockNone {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
+  }
+
+  .dropdownBasic {
+    width: 100%;
+  }
+  .displayBlockNone2 {
+    display: none;
+  }
+
+  th {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  .dropdownBasic {
+    width: 100%;
+  }
+}

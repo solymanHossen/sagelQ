@@ -1,0 +1,43 @@
+.padding{
+  padding-top: 18px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.3);
+}
+
+.borderSection{
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(196, 196, 196, 0.3);
+}
+
+.borderHeader{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.inviteNum{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 767px) {
+  .displayNone{
+    display: none;
+  }
+  .inviteNum{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .borderSection{
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: none ;
+  }
+  .borderHeader{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
