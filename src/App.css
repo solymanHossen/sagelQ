@@ -12,3 +12,21 @@ justify-content: space-around!important;
   display: none;
  }
 }
+.form-control{
+  height: 46px;
+ 
+}
+.marginForm{
+  margin-bottom: 25px;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+  .marginBottomRes{
+   margin-bottom: 25px;
+  }
+  } 

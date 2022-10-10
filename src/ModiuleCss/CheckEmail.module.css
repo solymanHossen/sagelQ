@@ -1,0 +1,27 @@
+.falock {
+  height: 100px;
+  width: 100px;
+  background: rgba(87, 169, 194, 0.25);
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ 
+}
+
+.falockIcont{
+  color:#57A9C2 ;
+   height: 50px;
+   width: 44px;
+ }
+
+ .btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  color: #57A9C2;
+  border: none;
+  margin-top: 27px;
+}

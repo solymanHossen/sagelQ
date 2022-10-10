@@ -1,0 +1,131 @@
+.uploadPhoto {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+}
+
+.bgUpload {
+  /* background: rgb(96, 196, 214); */
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cameraIcons {
+  width: 27px;
+  height: 23px;
+  position: relative;
+}
+
+.custom_file__input {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  z-index: 0;
+  opacity: 0;
+  border-radius: 50%;
+}
+
+.imgPostion {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.singUpBtn {
+  padding: 10px 20px;
+  width: 100%;
+  background: #57A9C2;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+.singUpBtn:hover{
+  background: #30afd6;
+  transition: 8ms;
+}
+
+
+.btnGoogle {
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  background: #FFFFFF;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.btnFacebook {
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  background: linear-gradient(0deg, #2F64DB, #2F64DB), #3B5998;
+  border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10;
+  color: white;
+  border: none;
+}
+.backBtn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  margin-top: 35px;
+  color: #57A9C2;
+}
+.mainFormSection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.formIconControl{
+  display: flex;
+  align-items: center;
+  position: relative;
+ 
+}
+.iconD{
+  position: absolute;
+  right:10%;
+  
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+  .btnGoogle{
+    padding: 10px;
+  }
+  /* .mainFormSection{
+  flex-direction: column;
+  justify-content: center;
+  } */
+}
+@media screen and (max-width: 768px) {
+ 
+  .mainFormSection{
+    flex-direction: column;
+    justify-content: center;
+  }
+  } 

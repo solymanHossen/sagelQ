@@ -1,0 +1,89 @@
+.singUpBtn {
+  padding: 10px 20px;
+  width: 100%;
+  background: #57A9C2;
+  border-radius: 3px;
+  border: none;
+  color: white;
+
+}
+.singUpBtn:hover{
+  background: #30afd6;
+  transition: 8ms;
+}
+
+.btnGoogle {
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  background: #FFFFFF;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.btnFacebook {
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  background: none;
+  border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+.mainFormSection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+  .btnGoogle{
+    padding: 10px;
+  }
+  /* .mainFormSection{
+  flex-direction: column;
+  justify-content: center;
+  } */
+}
+@media screen and (max-width: 767px) {
+  .singUpBtn {
+   margin-bottom: 25px;
+  }
+  .mainFormSection{
+    flex-direction: column;
+    justify-content: center;
+  }
+  } 
+
+  .headColor{
+    background: linear-gradient(90.52deg, #46698B 0%, #57A9C2 99.82%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+  .formIconControl{
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+  }
+  .iconD{
+    position: absolute;
+    right:10%;
+    
+  }

@@ -1,0 +1,39 @@
+.boxPic{
+  height: 143px;
+  width: 143px;
+  border: 2px solid green;
+  text-align: center;
+  margin-top: 24px;
+}
+.btnDelete{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.modalHeader{
+  position: absolute;
+  left: 94%;
+}
+
+.heightModal{
+  height: 527px;
+}
+.btnSkip{
+ background: none;
+ padding: 10px;
+  border: none !important
+}
+.finshBtn{
+  padding: 10px;
+  border: none;
+  background: #57A9C2;
+border-radius: 0px 0px 5px 5px;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .modalHeader{
+    
+    left: 87%;
+  }
+  }

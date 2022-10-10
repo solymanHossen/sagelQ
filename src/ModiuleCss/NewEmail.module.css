@@ -1,0 +1,57 @@
+.falock {
+  height: 100px;
+  width: 100px;
+  background: rgba(87, 169, 194, 0.25);
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ 
+}
+
+.falockIcont{
+ color:#57A9C2 ;
+  height: 50px;
+  width: 44px;
+}
+
+.iconAbsulute {
+  position: absolute;
+  right: 13px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  color: #57A9C2;
+  border: none;
+
+}
+
+.btnsev{
+
+background: #57A9C2;
+border-radius: 3px;
+padding: 13px 40px 13px 40px;
+color: white;
+border: none;
+}
+.emailVarification{
+  margin-top: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 67px;
+}
+
+
+/* responsiv */
+
+@media (max-width: 448px) {
+  .btnsev{
+    padding: 13px 0 13px 0;
+    
+    }
+}
